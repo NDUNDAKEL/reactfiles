@@ -1,0 +1,31 @@
+.Trash{
+   color:blue;
+   margin-left: 20px;
+}
+.inputs:checked{
+    background-color: blue;
+    color: white;
+    box-sizing: border-box;
+
+}
+ul{
+list-style: none;
+width: auto;
+padding: 20px;
+
+}
+.inputs{
+    padding: 20px;
+}
+.Trash:hover{
+    color: red;
+}
+.inputs,.labels,.Trash,.checked{
+    display: flexbox;
+    padding: 3px;
+    
+}
+.item{
+height: 30px;
+background-color: aliceblue;
+}
