@@ -2,12 +2,13 @@ import React ,{useState}from 'react';
 const Use=()=>{
 const [state,setState]=useState(0)
 function changeState(){
-    setState(state=state+1)
+    setState(prevState=prevState+1)
 }
 return (
     <div>
-        <button onclick="changeState">Change State</button>
+        <button onClick="changeState">Change State</button>
+        <p>{state}</p>
     </div>
 )
 }
-export default Index;
+export default Use;
